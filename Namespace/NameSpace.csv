@@ -1,0 +1,6 @@
+ns,link,RdfLink
+dc,http://purl.org/dc/elements/1.1/,https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_elements.rdf
+dc-am,http://purl.org/dc/dcam/,https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_abstract_model.rdf
+dc-mitype,http://purl.org/dc/dcmitype/,https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_type.rdf
+dc-terms,http://purl.org/dc/terms/,https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_terms.rdf
+

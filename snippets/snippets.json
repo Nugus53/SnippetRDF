@@ -1,0 +1,414 @@
+{
+  "ns-dc": {
+    "prefix": "ns-dc",
+    "body": "xmlns:http://purl.org/dc/elements/1.1/"
+  },
+  "P-dc-contributor": {
+    "prefix": "P-dc-contributor",
+    "body": "<dc:contributor/>\n"
+  },
+  "P-dc-coverage": { "prefix": "P-dc-coverage", "body": "<dc:coverage/>\n" },
+  "P-dc-creator": { "prefix": "P-dc-creator", "body": "<dc:creator/>\n" },
+  "P-dc-date": { "prefix": "P-dc-date", "body": "<dc:date/>\n" },
+  "P-dc-description": {
+    "prefix": "P-dc-description",
+    "body": "<dc:description/>\n"
+  },
+  "P-dc-format": { "prefix": "P-dc-format", "body": "<dc:format/>\n" },
+  "P-dc-identifier": {
+    "prefix": "P-dc-identifier",
+    "body": "<dc:identifier/>\n"
+  },
+  "P-dc-language": { "prefix": "P-dc-language", "body": "<dc:language/>\n" },
+  "P-dc-publisher": { "prefix": "P-dc-publisher", "body": "<dc:publisher/>\n" },
+  "P-dc-relation": { "prefix": "P-dc-relation", "body": "<dc:relation/>\n" },
+  "P-dc-rights": { "prefix": "P-dc-rights", "body": "<dc:rights/>\n" },
+  "P-dc-source": { "prefix": "P-dc-source", "body": "<dc:source/>\n" },
+  "P-dc-subject": { "prefix": "P-dc-subject", "body": "<dc:subject/>\n" },
+  "P-dc-title": { "prefix": "P-dc-title", "body": "<dc:title/>\n" },
+  "P-dc-type": { "prefix": "P-dc-type", "body": "<dc:type/>\n" },
+  "ns-dc-am": {
+    "prefix": "ns-dc-am",
+    "body": "xmlns:http://purl.org/dc/dcam/"
+  },
+  "E-dc-am-VocabularyEncodingScheme": {
+    "prefix": "E-dc-am-VocabularyEncodingScheme",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/dcam/VocabularyEncodingScheme\"/>\n"
+  },
+  "P-dc-am-domainIncludes": {
+    "prefix": "P-dc-am-domainIncludes",
+    "body": "<dc-am:domainIncludes/>\n"
+  },
+  "P-dc-am-memberOf": {
+    "prefix": "P-dc-am-memberOf",
+    "body": "<dc-am:memberOf/>\n"
+  },
+  "P-dc-am-rangeIncludes": {
+    "prefix": "P-dc-am-rangeIncludes",
+    "body": "<dc-am:rangeIncludes/>\n"
+  },
+  "ns-dc-mitype": {
+    "prefix": "ns-dc-mitype",
+    "body": "xmlns:http://purl.org/dc/dcmitype/"
+  },
+  "E-dc-mitype-Collection": {
+    "prefix": "E-dc-mitype-Collection",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/dcmitype/Collection\"/>\n"
+  },
+  "E-dc-mitype-Dataset": {
+    "prefix": "E-dc-mitype-Dataset",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/dcmitype/Dataset\"/>\n"
+  },
+  "E-dc-mitype-Event": {
+    "prefix": "E-dc-mitype-Event",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/dcmitype/Event\"/>\n"
+  },
+  "E-dc-mitype-Image": {
+    "prefix": "E-dc-mitype-Image",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/dcmitype/Image\"/>\n"
+  },
+  "E-dc-mitype-InteractiveResource": {
+    "prefix": "E-dc-mitype-InteractiveResource",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/dcmitype/InteractiveResource\"/>\n"
+  },
+  "E-dc-mitype-MovingImage": {
+    "prefix": "E-dc-mitype-MovingImage",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/dcmitype/MovingImage\"/>\n"
+  },
+  "E-dc-mitype-PhysicalObject": {
+    "prefix": "E-dc-mitype-PhysicalObject",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/dcmitype/PhysicalObject\"/>\n"
+  },
+  "E-dc-mitype-Service": {
+    "prefix": "E-dc-mitype-Service",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/dcmitype/Service\"/>\n"
+  },
+  "E-dc-mitype-Software": {
+    "prefix": "E-dc-mitype-Software",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/dcmitype/Software\"/>\n"
+  },
+  "E-dc-mitype-Sound": {
+    "prefix": "E-dc-mitype-Sound",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/dcmitype/Sound\"/>\n"
+  },
+  "E-dc-mitype-StillImage": {
+    "prefix": "E-dc-mitype-StillImage",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\n"
+  },
+  "E-dc-mitype-Text": {
+    "prefix": "E-dc-mitype-Text",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/dcmitype/Text\"/>\n"
+  },
+  "ns-dc-terms": {
+    "prefix": "ns-dc-terms",
+    "body": "xmlns:http://purl.org/dc/terms/"
+  },
+  "E-dc-terms-Agent": {
+    "prefix": "E-dc-terms-Agent",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/Agent\"/>\n"
+  },
+  "E-dc-terms-AgentClass": {
+    "prefix": "E-dc-terms-AgentClass",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/AgentClass\"/>\n"
+  },
+  "E-dc-terms-BibliographicResource": {
+    "prefix": "E-dc-terms-BibliographicResource",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/BibliographicResource\"/>\n"
+  },
+  "E-dc-terms-FileFormat": {
+    "prefix": "E-dc-terms-FileFormat",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/FileFormat\"/>\n"
+  },
+  "E-dc-terms-Frequency": {
+    "prefix": "E-dc-terms-Frequency",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/Frequency\"/>\n"
+  },
+  "E-dc-terms-Jurisdiction": {
+    "prefix": "E-dc-terms-Jurisdiction",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/Jurisdiction\"/>\n"
+  },
+  "E-dc-terms-LicenseDocument": {
+    "prefix": "E-dc-terms-LicenseDocument",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/LicenseDocument\"/>\n"
+  },
+  "E-dc-terms-LinguisticSystem": {
+    "prefix": "E-dc-terms-LinguisticSystem",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/LinguisticSystem\"/>\n"
+  },
+  "E-dc-terms-Location": {
+    "prefix": "E-dc-terms-Location",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/Location\"/>\n"
+  },
+  "E-dc-terms-LocationPeriodOrJurisdiction": {
+    "prefix": "E-dc-terms-LocationPeriodOrJurisdiction",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/LocationPeriodOrJurisdiction\"/>\n"
+  },
+  "E-dc-terms-MediaType": {
+    "prefix": "E-dc-terms-MediaType",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/MediaType\"/>\n"
+  },
+  "E-dc-terms-MediaTypeOrExtent": {
+    "prefix": "E-dc-terms-MediaTypeOrExtent",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/MediaTypeOrExtent\"/>\n"
+  },
+  "E-dc-terms-MethodOfAccrual": {
+    "prefix": "E-dc-terms-MethodOfAccrual",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/MethodOfAccrual\"/>\n"
+  },
+  "E-dc-terms-MethodOfInstruction": {
+    "prefix": "E-dc-terms-MethodOfInstruction",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/MethodOfInstruction\"/>\n"
+  },
+  "E-dc-terms-PeriodOfTime": {
+    "prefix": "E-dc-terms-PeriodOfTime",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/PeriodOfTime\"/>\n"
+  },
+  "E-dc-terms-PhysicalMedium": {
+    "prefix": "E-dc-terms-PhysicalMedium",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/PhysicalMedium\"/>\n"
+  },
+  "E-dc-terms-PhysicalResource": {
+    "prefix": "E-dc-terms-PhysicalResource",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/PhysicalResource\"/>\n"
+  },
+  "E-dc-terms-Policy": {
+    "prefix": "E-dc-terms-Policy",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/Policy\"/>\n"
+  },
+  "E-dc-terms-ProvenanceStatement": {
+    "prefix": "E-dc-terms-ProvenanceStatement",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/ProvenanceStatement\"/>\n"
+  },
+  "E-dc-terms-RightsStatement": {
+    "prefix": "E-dc-terms-RightsStatement",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/RightsStatement\"/>\n"
+  },
+  "E-dc-terms-SizeOrDuration": {
+    "prefix": "E-dc-terms-SizeOrDuration",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/SizeOrDuration\"/>\n"
+  },
+  "E-dc-terms-Standard": {
+    "prefix": "E-dc-terms-Standard",
+    "body": "<rdf:type rdf:resource=\"http://purl.org/dc/terms/Standard\"/>\n"
+  },
+  "P-dc-terms-abstract": {
+    "prefix": "P-dc-terms-abstract",
+    "body": "<dc-terms:abstract/>\n"
+  },
+  "P-dc-terms-accessRights": {
+    "prefix": "P-dc-terms-accessRights",
+    "body": "<dc-terms:accessRights/>\n"
+  },
+  "P-dc-terms-accrualMethod": {
+    "prefix": "P-dc-terms-accrualMethod",
+    "body": "<dc-terms:accrualMethod/>\n"
+  },
+  "P-dc-terms-accrualPeriodicity": {
+    "prefix": "P-dc-terms-accrualPeriodicity",
+    "body": "<dc-terms:accrualPeriodicity/>\n"
+  },
+  "P-dc-terms-accrualPolicy": {
+    "prefix": "P-dc-terms-accrualPolicy",
+    "body": "<dc-terms:accrualPolicy/>\n"
+  },
+  "P-dc-terms-alternative": {
+    "prefix": "P-dc-terms-alternative",
+    "body": "<dc-terms:alternative/>\n"
+  },
+  "P-dc-terms-audience": {
+    "prefix": "P-dc-terms-audience",
+    "body": "<dc-terms:audience/>\n"
+  },
+  "P-dc-terms-available": {
+    "prefix": "P-dc-terms-available",
+    "body": "<dc-terms:available/>\n"
+  },
+  "P-dc-terms-bibliographicCitation": {
+    "prefix": "P-dc-terms-bibliographicCitation",
+    "body": "<dc-terms:bibliographicCitation/>\n"
+  },
+  "P-dc-terms-conformsTo": {
+    "prefix": "P-dc-terms-conformsTo",
+    "body": "<dc-terms:conformsTo/>\n"
+  },
+  "P-dc-terms-contributor": {
+    "prefix": "P-dc-terms-contributor",
+    "body": "<dc-terms:contributor/>\n"
+  },
+  "P-dc-terms-coverage": {
+    "prefix": "P-dc-terms-coverage",
+    "body": "<dc-terms:coverage/>\n"
+  },
+  "P-dc-terms-created": {
+    "prefix": "P-dc-terms-created",
+    "body": "<dc-terms:created/>\n"
+  },
+  "P-dc-terms-creator": {
+    "prefix": "P-dc-terms-creator",
+    "body": "<dc-terms:creator/>\n"
+  },
+  "P-dc-terms-date": {
+    "prefix": "P-dc-terms-date",
+    "body": "<dc-terms:date/>\n"
+  },
+  "P-dc-terms-dateAccepted": {
+    "prefix": "P-dc-terms-dateAccepted",
+    "body": "<dc-terms:dateAccepted/>\n"
+  },
+  "P-dc-terms-dateCopyrighted": {
+    "prefix": "P-dc-terms-dateCopyrighted",
+    "body": "<dc-terms:dateCopyrighted/>\n"
+  },
+  "P-dc-terms-dateSubmitted": {
+    "prefix": "P-dc-terms-dateSubmitted",
+    "body": "<dc-terms:dateSubmitted/>\n"
+  },
+  "P-dc-terms-description": {
+    "prefix": "P-dc-terms-description",
+    "body": "<dc-terms:description/>\n"
+  },
+  "P-dc-terms-educationLevel": {
+    "prefix": "P-dc-terms-educationLevel",
+    "body": "<dc-terms:educationLevel/>\n"
+  },
+  "P-dc-terms-extent": {
+    "prefix": "P-dc-terms-extent",
+    "body": "<dc-terms:extent/>\n"
+  },
+  "P-dc-terms-format": {
+    "prefix": "P-dc-terms-format",
+    "body": "<dc-terms:format/>\n"
+  },
+  "P-dc-terms-hasFormat": {
+    "prefix": "P-dc-terms-hasFormat",
+    "body": "<dc-terms:hasFormat/>\n"
+  },
+  "P-dc-terms-hasPart": {
+    "prefix": "P-dc-terms-hasPart",
+    "body": "<dc-terms:hasPart/>\n"
+  },
+  "P-dc-terms-hasVersion": {
+    "prefix": "P-dc-terms-hasVersion",
+    "body": "<dc-terms:hasVersion/>\n"
+  },
+  "P-dc-terms-identifier": {
+    "prefix": "P-dc-terms-identifier",
+    "body": "<dc-terms:identifier/>\n"
+  },
+  "P-dc-terms-instructionalMethod": {
+    "prefix": "P-dc-terms-instructionalMethod",
+    "body": "<dc-terms:instructionalMethod/>\n"
+  },
+  "P-dc-terms-isFormatOf": {
+    "prefix": "P-dc-terms-isFormatOf",
+    "body": "<dc-terms:isFormatOf/>\n"
+  },
+  "P-dc-terms-isPartOf": {
+    "prefix": "P-dc-terms-isPartOf",
+    "body": "<dc-terms:isPartOf/>\n"
+  },
+  "P-dc-terms-isReferencedBy": {
+    "prefix": "P-dc-terms-isReferencedBy",
+    "body": "<dc-terms:isReferencedBy/>\n"
+  },
+  "P-dc-terms-isReplacedBy": {
+    "prefix": "P-dc-terms-isReplacedBy",
+    "body": "<dc-terms:isReplacedBy/>\n"
+  },
+  "P-dc-terms-isRequiredBy": {
+    "prefix": "P-dc-terms-isRequiredBy",
+    "body": "<dc-terms:isRequiredBy/>\n"
+  },
+  "P-dc-terms-isVersionOf": {
+    "prefix": "P-dc-terms-isVersionOf",
+    "body": "<dc-terms:isVersionOf/>\n"
+  },
+  "P-dc-terms-issued": {
+    "prefix": "P-dc-terms-issued",
+    "body": "<dc-terms:issued/>\n"
+  },
+  "P-dc-terms-language": {
+    "prefix": "P-dc-terms-language",
+    "body": "<dc-terms:language/>\n"
+  },
+  "P-dc-terms-license": {
+    "prefix": "P-dc-terms-license",
+    "body": "<dc-terms:license/>\n"
+  },
+  "P-dc-terms-mediator": {
+    "prefix": "P-dc-terms-mediator",
+    "body": "<dc-terms:mediator/>\n"
+  },
+  "P-dc-terms-medium": {
+    "prefix": "P-dc-terms-medium",
+    "body": "<dc-terms:medium/>\n"
+  },
+  "P-dc-terms-modified": {
+    "prefix": "P-dc-terms-modified",
+    "body": "<dc-terms:modified/>\n"
+  },
+  "P-dc-terms-provenance": {
+    "prefix": "P-dc-terms-provenance",
+    "body": "<dc-terms:provenance/>\n"
+  },
+  "P-dc-terms-publisher": {
+    "prefix": "P-dc-terms-publisher",
+    "body": "<dc-terms:publisher/>\n"
+  },
+  "P-dc-terms-references": {
+    "prefix": "P-dc-terms-references",
+    "body": "<dc-terms:references/>\n"
+  },
+  "P-dc-terms-relation": {
+    "prefix": "P-dc-terms-relation",
+    "body": "<dc-terms:relation/>\n"
+  },
+  "P-dc-terms-replaces": {
+    "prefix": "P-dc-terms-replaces",
+    "body": "<dc-terms:replaces/>\n"
+  },
+  "P-dc-terms-requires": {
+    "prefix": "P-dc-terms-requires",
+    "body": "<dc-terms:requires/>\n"
+  },
+  "P-dc-terms-rights": {
+    "prefix": "P-dc-terms-rights",
+    "body": "<dc-terms:rights/>\n"
+  },
+  "P-dc-terms-rightsHolder": {
+    "prefix": "P-dc-terms-rightsHolder",
+    "body": "<dc-terms:rightsHolder/>\n"
+  },
+  "P-dc-terms-source": {
+    "prefix": "P-dc-terms-source",
+    "body": "<dc-terms:source/>\n"
+  },
+  "P-dc-terms-spatial": {
+    "prefix": "P-dc-terms-spatial",
+    "body": "<dc-terms:spatial/>\n"
+  },
+  "P-dc-terms-subject": {
+    "prefix": "P-dc-terms-subject",
+    "body": "<dc-terms:subject/>\n"
+  },
+  "P-dc-terms-tableOfContents": {
+    "prefix": "P-dc-terms-tableOfContents",
+    "body": "<dc-terms:tableOfContents/>\n"
+  },
+  "P-dc-terms-temporal": {
+    "prefix": "P-dc-terms-temporal",
+    "body": "<dc-terms:temporal/>\n"
+  },
+  "P-dc-terms-title": {
+    "prefix": "P-dc-terms-title",
+    "body": "<dc-terms:title/>\n"
+  },
+  "P-dc-terms-type": {
+    "prefix": "P-dc-terms-type",
+    "body": "<dc-terms:type/>\n"
+  },
+  "P-dc-terms-valid": {
+    "prefix": "P-dc-terms-valid",
+    "body": "<dc-terms:valid/>\n"
+  }
+}
