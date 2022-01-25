@@ -2,7 +2,7 @@
   "name": "snippets-rdf",
   "displayName": "Snippets-RDF",
   "description": "Snippets-RDF",
-  "version": "0.1.0",
+  "version": "0.0.3",
   "publisher": "Nugus",
   "engines": {
     "vscode": "1.28.0"
@@ -29,6 +29,8 @@
     "Skos",
     "Dublincore",
     "RDF",
-    "Websemantic"
+    "Websemantic",
+    "OWL",
+    "Cidoc"
   ]
 }
